@@ -49,7 +49,7 @@ func (a Avatar) svgWithViewBoxAndTransform(width, height int, vb svgViewBox, con
 	b.WriteString(`<stop offset="100%" style="stop-color: ` + html.EscapeString(svgColor(a.RainbowGradient[2])) + `; stop-opacity: 1"/>`)
 	b.WriteString(`</linearGradient></defs>`)
 	b.WriteString(`<title>That's an ugly face</title>`)
-	b.WriteString(`<desc>CREATED BY XUAN TANG, GO PORT AT github.com/txstc55/uglyavatar</desc>`)
+	b.WriteString(`<desc>CREATED BY XUAN TANG, GO PORT AT github.com/icepie/ugly-avatar-go</desc>`)
 	b.WriteString(`<rect x="` + formatFloat(vb.X) + `" y="` + formatFloat(vb.Y) + `" width="` + formatFloat(vb.W) + `" height="` + formatFloat(vb.H) + `" fill="` + html.EscapeString(svgColor(a.BackgroundColor)) + `"/>`)
 	if contentTransform != "" {
 		b.WriteString(`<g transform="` + contentTransform + `">`)

@@ -5,7 +5,7 @@ Go library port of the Vue ugly avatar generator in `../`.
 ## Install
 
 ```bash
-go get github.com/txstc55/uglyavatar
+go get github.com/icepie/ugly-avatar-go
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ package main
 import (
 	"os"
 
-	"github.com/txstc55/uglyavatar"
+	uglyavatar "github.com/icepie/ugly-avatar-go"
 )
 
 func main() {

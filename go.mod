@@ -1,4 +1,4 @@
-module github.com/txstc55/uglyavatar
+module github.com/icepie/ugly-avatar-go
 
 go 1.22
 
